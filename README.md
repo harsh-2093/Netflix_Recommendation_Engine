@@ -3,7 +3,19 @@
 An AI-powered movie recommendation engine built with **Spring Boot** and **Spring AI**. It uses a local **all-MiniLM-L6-v2** embedding model to understand the semantic meaning of movie descriptions and user queries.
 
 The system provides **semantic movie search** and **related movie recommendations** using vector embeddings and cosine similarity.
+## 🖼️ Screenshots
 
+### 🔎 Semantic Movie Search
+
+The application supports natural-language semantic search and returns movies based on the meaning of the query rather than exact keyword matching.
+
+![Semantic Movie Search](Screenshots/search.png)
+
+### 🎬 Related Movie Recommendations
+
+Clicking a movie displays other movies with similar semantic descriptions using cosine similarity between their embeddings.
+
+![Related Movie Recommendations](Screenshots/recommendation.png)
 ## ✨ Features
 
 ### 🔎 Semantic Movie Search
